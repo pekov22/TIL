@@ -1,0 +1,13 @@
+.all{
+    display: grid;        
+    place-items: center;  /*모든 요소를 중앙으로 */
+}
+.else p{
+     margin-top: 0;
+     margin-bottom: 0;  /*공백 제거*/
+    }
+body{
+    background: linear-gradient(to left, red, yellow); 
+    /*배경색 입히기, 그라데이션을 넣음*/
+}
+ 
