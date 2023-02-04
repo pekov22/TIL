@@ -1,0 +1,36 @@
+태그는 <h1> 내용 </h1>와 같이 닫히는 태그를 가진다(예외 있음)
+<h1> : 제목 태그(글자 크기 커지고 진해짐)
+<h1~6>: 숫자 커질수록 글자 크기가 작아짐
+<strong> : 글자 진해짐
+<u> : 밑줄
+<meta charset="utf-8">(닫힘 태그 없음):한글 깨짐 방지, meta가 기본 이고 글자코드(charset =)는 지정 필요함
+=======
+9. 줄바꿈
+<br>(닫힘 태그 없음): 줄바꾸기
+<p>: 문단으로 나눠준다. 감싼부분과 다음 부분을 한 칸 띄어줌
+====
+11. 속성
+<img>(닫힘 태그 없음): 속성으로 src=”사진주소” 넣어서 사진을 띄움
+속성은 meta의 charset같은 걸로 태그를 보완하는 역할.
+===
+12. 부모 자식과 목록
+<li>: 순서 없는 목록으로 만듬
+<ol>: ordered list, 순서있는 하나의 목록으로(번호 매김)
+<ul>: unordered list, 순서없는 하나의 목록으로(번호 안매김)
+ol, ul 둘다 li랑 같이 씀
+===
+13. 문서의 구조와 슈퍼스타들
+<title>: 제목을 설정, <title>제목</title>이라 하면 웹페이지에서 창에 설정한 제목이 뜸
+<head>:  본문이 아닌 본문을 설명하는 용도라는 뜻
+<body>: 본문을 감싼다. 둘 다 기능은 없다?
+<!doctype html>: 문서가 html이라 표시함
+<meta charset="utf-8">: 브라우저가 해당 웹페이지를 utf-8로 열게 해 문자깨짐 방지
+====
+14. HTML 태그의 제왕
+<a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext 
+    Markup Language (HTML)</a>
+
+<a href=”주소” target=”_blank” title=” html5 specification”>보일 이름</a>
+주소, target=”_blank”는 새 창에서 열리는 속성, 
+title=”글”는 툴팁으로 어떤 속성을 가졌는지 알려줌?(마우스 갖다 대면 글이 뜸)
+
