@@ -1,0 +1,48 @@
+실제 주석과 다름?
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인페이지</title>
+    <link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+<div class="all">
+    <h1>로그인하기</h1>
+    <p> id: <input type="text" value="id" name="id">  </p>   
+    <p>pw: <input type="password" value="비밀번호" name="password"></p>
+    <p> <input type="button" onClick="window.open('https://heroesofthestorm.com/ko-kr/')" value="로그인" name="login"></p>
+
+<div class="else">
+        <!-- id만들기, 홈페이지, 끝내기-->
+        <p> <input type="button" onClick="window.open('https://member.nexon.com/join/join.aspx?accesscode=136')" value="id만들기" name="link1">
+            <input type="button" onClick="window.open('https://maplestory.nexon.com/Home/Main')" value="홈페이지" name="link2">
+            <input type="button" onClick="window.open('https://heroesofthestorm.com/ko-kr/')" value="끝내기" name="link3">
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.all{
+    display: grid;        
+    place-items: center;  /*모든 요소를 중앙으로 */
+}
+.else p{
+     margin-top: 0;
+     margin-bottom: 0;  /*공백 제거*/
+    }
+body{
+    background: linear-gradient(to left, red, yellow);
+}
+ /*배경색 입히기, 그라데이션을 넣음*/
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+원래는 class가 많았는데 생각보다 안써서 지움

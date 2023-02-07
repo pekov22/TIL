@@ -1,0 +1,19 @@
+전체 형태 및 영감
+https://creatorjo.tistory.com/80
+
+input 태그의 type 속성에 대해
+https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input
+
+input 태그 설명
+https://yangbari.tistory.com/28
+
+
+HTML input type=”button” 으로 링크 걸기
+https://allg.tistory.com/27
+
+display: grid 를 사용하여 가운데 정렬하는 방법
+https://velog.io/@leemember/display-grid-%EB%A5%
+BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%
+AC-%EA%B0%80%EC%9A%B4%EB%8D%B0-%EC%A0%
+95%EB%A0%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
+
